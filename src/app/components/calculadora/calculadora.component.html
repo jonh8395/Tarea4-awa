@@ -1,0 +1,29 @@
+<div class="container">
+  <br>
+<div class="row d-flex justify-content-center">
+  <h1>Calculadora</h1>
+</div>
+<br>
+<div class="row d-flex justify-content-center">
+  <div class="col-8">
+    Operando 1: <input type="number" [(ngModel)]="op1">
+    <br>
+    <br>
+    Operando 2: <input type="number" [(ngModel)]="op2">
+  </div>
+</div>
+<br>
+<br>
+<div class="row d-flex justify-content-center">
+  <div class="col-8 d-flex justify-content-between">
+    <button type="button" class="btn btn-dark" (click)="onsuma()" required>+</button>
+    <button type="button" class="btn btn-dark" (click)="onresta()" required>-</button>
+    <button type="button" class="btn btn-dark" (click)="onmult()" required>*</button>
+    <button type="button" class="btn btn-dark" (click)="ondiv()" required>/</button>
+
+  </div>
+</div>
+</div>
+
+
+
