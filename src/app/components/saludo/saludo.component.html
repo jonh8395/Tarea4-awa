@@ -1,12 +1,11 @@
-<div class="container">
-  <br>
+
 <div class="row d-flex justify-content-center">
   <h1>Saludo</h1>
 </div>
 <br><br><br>
 <div class="row d-flex justify-content-center">
   <div class="col-8">
-    Saludar A: <input type="text" [(ngModel)]="texto">
+    Saludar A: <input type="text" [(ngModel)]="texto" #sal>
     <br>
   </div>
 </div>
@@ -17,5 +16,4 @@
     <button type="button" class="btn btn-dark"  (click)="onmensaje()"  required>ENVIAR SALUDO</button>
   </div>
 </div>
-</div>
-<br>
+

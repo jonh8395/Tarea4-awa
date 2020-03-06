@@ -1,4 +1,25 @@
 <div class="container-fluid">
-  <app-display></app-display>
+  <br>
+  <div class="row">
+    <div class="col-12 d-flex justify-content-center" >
+      <h1>Tarea 4</h1>
+    </div>
+  </div>
+<div class="row">
+  <div class="col-3" id = "p">
+    <app-calculadora (propagar)="procesar($event)"></app-calculadora>
+  </div>
+</div>
+<div class="row">
+  <div class="col-3" id = "pp">
+    <app-saludo (sacar) ="procesar($event)"></app-saludo>
+  </div>
+</div>
+
+<div class="row" >
+  <div class="col-3" id="ppp" >
+    <app-display [totales] = "totales"></app-display>
+  </div>
+</div>
 </div>
 

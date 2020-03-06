@@ -5,10 +5,11 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import {NgbModule, NgbButtonsModule} from '@ng-bootstrap/ng-bootstrap';
 import { FormsModule } from '@angular/forms';
-import { SaludoComponent } from './components/saludo/saludo.component';
+
 import { DisplayComponent } from './components/display/display.component';
 import { CalculadoraComponent } from './components/calculadora/calculadora.component';
 import { ContenidoComponent } from './components/contenido/contenido.component';
+import { SaludoComponent } from './components/saludo/saludo.component';
 
 
 @NgModule({

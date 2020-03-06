@@ -4,4 +4,43 @@
   top: 5pc;
   height: 40pc;
   width: 84pc;
+
+}
+
+h1{
+  font-style: normal;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: black;
+  font-size: 3.5pc;
+
+}
+
+
+#p{
+  background-color: aquamarine;
+ width: 5pc;
+ height: 25pc;
+ position: relative;
+ left: 5pc;
+ top: 5.5pc;
+ }
+
+
+ #pp{
+  background-color: cornflowerblue;
+  width: 20pc;
+  height: 25pc;
+  position: relative;
+  top: -19.5pc;
+  left: 30pc;
+}
+
+#ppp{
+  background-color: darkviolet;
+  width: 20pc;
+  height: 25pc;
+  position: relative;
+  top: -44.5pc;
+  left: 56pc;
+
 }
